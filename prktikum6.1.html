@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        #container{
+            width: 100%;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            justify-content: space-between;
+        }
+        img{
+            width: 400px;
+        }
+        .poto{
+            width: 19%;
+        }
+        .poto img{
+            width: 100%;
+        }
+        .p1{
+            width: 33%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="poto">
+            <img src="pantai.png" alt="">
+        </div>
+        <div class="poto">
+            <img src="pantai.png" alt="">
+        </div>
+        <div class="poto">
+            <img src="pantai.png" alt="">
+        </div>
+        <div class="poto">
+            <img src="pantai.png" alt="">
+        </div>
+        <div class="poto">
+            <img src="pantai.png" alt="">
+        </div>
+        <div class="poto p1">
+            <img src="pantai.png" alt="">
+        </div>
+        <div class="poto p1">
+            <img src="pantai.png" alt="">
+        </div>
+        <div class="poto p1">
+            <img src="pantai.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
